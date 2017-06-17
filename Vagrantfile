@@ -94,7 +94,7 @@ Vagrant.configure("2") do |config|
         # ansible.limit = 'all'           # Disable default limit to connect to all machines
         ansible.ask_sudo_pass = false   # Prompt for sudo pass prior to play run
         ansible.ask_vault_pass = false   # Prompt for vault encryption password
-        ansible.vault_password_file = 'ansible/vault-password.txt'
+        # ansible.vault_password_file = 'ansible/vault-password.txt'
         # Ansible Galaxy
         ansible.galaxy_roles_path = 'ansible/roles/:../'
         ansible.galaxy_role_file = "ansible/roles/requirements.yml"
